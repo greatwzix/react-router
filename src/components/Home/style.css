@@ -1,0 +1,36 @@
+.Home{
+	margin:0 50px 50px;	
+	background-image: url('./assets/background.jpg');
+	padding: 166px 100px 400px 307px;
+	background-color: black;
+	color:white;
+	border-radius: 16px;
+}
+
+.Home__title{
+	font-weight: 600;
+	font-size: 80px;
+	max-width: 895px;
+	padding-bottom: 20px;
+}
+
+.Home__text{
+	max-width: 586px;
+	font-size: 25px;
+	padding-top: 60px;
+}
+@media screen and (width <= 1200px) {
+	.Home__title{
+		font-size: 35px;
+		font-weight: 400;
+		max-width: 200px;
+	}
+	.Home__text{
+		font-size: 20px;
+		padding-top: 60px;
+	}
+	.Home{
+		padding: 88px 50px 233px 153px;
+	}
+}
+
